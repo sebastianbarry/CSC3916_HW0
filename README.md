@@ -1,3 +1,8 @@
+Sebastian Barry
+CSC3916_HW0
+Assignment 0
+
+Professor's Notes:
 # week1
 Create REPO CSC3916_HW0 <br/>
 https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token <br />
