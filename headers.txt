@@ -1,0 +1,27 @@
+Key						Value
+My description
+
+Content-Type 			application/json; charset=UTF-8
+Content-Type indicates what content type is about to be passed, such as HTML or JSON. It is helpful because it can be used to process the proceeding data
+Vary					Origin
+Vary describes parts of the message that influence the content of the response aside from the method and URL
+Vary					X-Origin
+Vary					Referer
+Content-Encoding		gzip
+Lists the encoding type which has been applied to the message. Used for decoding the message
+Date					Mon, 31 Jan 2022 05:16:34 GMT
+This is the date/time when the message was originated
+Server					ESF
+Server describes the software used by the server which generated the response
+Cache-Control			private
+Cache-control is the cache policy defined by the server for the response
+X-XSS-Protection		0
+Cross site scripting, defines if the browser will stop pages from loading to protect against cross site scripting attacks
+X-Frame-Options			SAMEORIGIN
+Indicates whether or not a browser should be allowed to render a page in a <frame>, <iframe>, <embed> or <object>. Used to avoid click-jacking attacks 
+X-Content-Type-Options	nosniff
+Indicates that the MIME types advertised in the Content-Type headers should be followed and not be changed.Used to avoid MIME type sniffing
+Alt-Svc					h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+Indicates another network location that can be treated as authoritative for that origin when making future requests
+Transfer-Encoding		chunked
+Hop-by-hop header, that is applied to a message between two nodes
